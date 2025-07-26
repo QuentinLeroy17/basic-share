@@ -39,6 +39,7 @@ flutter pub get
 flutter run
 ```
 ### Web (experimental)
+Requires Node.js 20.19 or later. Using [nvm](https://github.com/nvm-sh/nvm) or a similar tool is recommended.
 1. Install dependencies:
 ```bash
 cd web && npm install

@@ -2,8 +2,12 @@
   "name": "web",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "type": "module",
   "scripts": {
+    "predev": "node scripts/check-node-version.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

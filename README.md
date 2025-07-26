@@ -9,6 +9,7 @@ BasicShare is a custom Basic Fit client application allowing QRCode sharing.
 
 ## 📱 Supported platforms
 - Android
+- Web (experimental)
 - iOS
 
 ## 📲 Installation
@@ -36,6 +37,15 @@ flutter pub get
 4. Run the application:
 ```bash
 flutter run
+```
+### Web (experimental)
+1. Install dependencies:
+```bash
+cd web && npm install
+```
+2. Start the dev server:
+```bash
+npm run dev
 ```
 
 ## 🖥️ Screenshots
